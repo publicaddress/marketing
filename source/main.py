@@ -483,7 +483,7 @@ class Account(QWidget):
         terms = QLabel()
         terms.setWordWrap(True)
 
-        terms.setText("Terms & Conditions:\n1. This software is owned and created by Eric Stevens (e.bst@pm.me), 'The Developer', specifically for previewing purposes.\n2. Any unauthorized possession, duplication or use of this software is prohibited.\n3. The Developer is the sole and exclusive owner of this software and all of its content.")
+        terms.setText("Terms & Conditions:\n1. This software is owned and created by Eric Stevens, 'The Developer', for previewing purposes, to be custom tailored to your business needs.\n2. Any unauthorized possession, duplication or use of this software is prohibited.\n3. The Developer is the sole and exclusive owner of this software and all of its content.")
         terms.setStyleSheet("background-color: #74dd6c; font-size: 42px; color: black;")
         grid.addWidget(terms)
 
